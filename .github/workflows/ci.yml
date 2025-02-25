@@ -1,0 +1,14 @@
+name: CI
+
+on: [push]
+
+jobs:
+
+build:
+
+runs-on: windows-latest
+
+steps:
+
+- name: quiero que me muestres la hora 
+run: date
